@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.RLOxJhMo.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/diary/think.md","filePath":"guide/diary/think.md","lastUpdated":null}'),r={name:"guide/diary/think.md"};function i(n,d,o,s,c,p){return a(),e("div")}const m=t(r,[["render",i]]);export{l as __pageData,m as default};
