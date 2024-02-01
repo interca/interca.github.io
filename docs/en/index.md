@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Lin Feng's blog"
   text: "~welcome~"
-  tagline: Share my experience with you on the road of life and look forward to meeting you~
+  tagline: Share my experience with you on the road of life and look forward to meeting you~ 
   image:
     src: /logo.png
   actions:
