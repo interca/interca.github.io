@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t}from"./chunks/framework.RLOxJhMo.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/diary/daily.md","filePath":"guide/diary/daily.md","lastUpdated":null}'),d={name:"guide/diary/daily.md"};function r(i,o,s,n,c,l){return t(),a("div")}const m=e(d,[["render",r]]);export{_ as __pageData,m as default};
