@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/',
   lastUpdated: true,
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   locales: {  
