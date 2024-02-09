@@ -9,7 +9,7 @@ export default defineConfig({
     root : {
       lang: "zh_CN",
       label: '中文',
-      title: "hongshen,
+      title: "hongshen",
       description: "分享美好事情，期待与你相遇",
       themeConfig: getChinsesThemeConfig()
     },
