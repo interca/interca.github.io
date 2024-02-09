@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "冯林的博客"
+  name: "红神的博客"
   text: "~欢迎光临~"
-  tagline: 在生命的道路上与你分享我的体验，期待与你相遇~
+  tagline: 每个不曾起舞的日子都是对生命的辜负
   image:
     src: /logo.png
   actions:
@@ -13,23 +13,23 @@ hero:
       text: 真诚
       # link: /guide/article/project
     - theme: brand
-      text: 善良
+      text: 乐观
       # link: /guide/article/project
     - theme: brand
-      text: 乐观
+      text: 努力
 
 features:
   - icon: 😊
     title: 个人简历
-    details: my resume
+    details: Personal Resume
     link: /guide/resume/Resume.md
   - icon: 💼
     title: 项目经历
-    details: my project
+    details: Project Experience
     link: /guide/project/baner.md
   - icon: 📑
-    title: 论文专利
+    title: 工作经历
     link: /guide/paper/firstPaper.md
-    details: my paper
+    details: Work Experience
 ---
 
