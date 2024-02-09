@@ -3,20 +3,21 @@
 layout: home
 
 hero:
-  name: "红神的博客"
+  name: "hongshen's blog"
   text: "~欢迎光临~"
   tagline: 每个不曾起舞的日子都是对生命的辜负
   image:
     src: /logo.png
   actions:
     - theme: brand
-      text: 真诚
-      # link: /guide/article/project
+      text: github
+      link: https://github.com/interca
     - theme: brand
-      text: 乐观
-      # link: /guide/article/project
+      text: 力扣
+      link: https://leetcode.cn/u/hong-shen-hyj/
     - theme: brand
-      text: 努力
+      text: codeforces
+      link: https://codeforces.com/profile/hongshen
 
 features:
   - icon: 😊
