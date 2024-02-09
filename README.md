@@ -1,2 +1,3 @@
-# 1aba1.github.io
-这是readme文件
+# inrerca.github.io
+## 记录学习和生活
+
