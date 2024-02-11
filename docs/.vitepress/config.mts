@@ -84,6 +84,10 @@ function getChinsesThemeConfig() {
               text:'2024.2.8 线上kafka事故',
               link:'/guide/diary/life/2024.2.8.md'
             },
+            {
+              text:'2024.2.10 网吧一日游',
+              link:'/guide/diary/life/2024.2.10.md'
+            }
           ]
       
         },
