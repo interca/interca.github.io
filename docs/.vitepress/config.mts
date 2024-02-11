@@ -80,9 +80,10 @@ function getChinsesThemeConfig() {
           text: '生活', 
           collapsed:true,
           items:[
-            {text:'2024.1.29日常',link:'/guide/diary/life/2024.1.29.md'},
-            {text:'2024.1.28',link:'/guide/diary/think.md'},
-            {text:'2024.1.27',link:'/guide/diary/daily.md'}
+            {
+              text:'2024.2.8 线上kafka事故',
+              link:'/guide/diary/life/2024.2.8.md'
+            },
           ]
       
         },
