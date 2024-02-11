@@ -103,14 +103,18 @@ function getChinsesThemeConfig() {
         },
         { 
           text: 'flashComms', 
-          link:'/guide/project/23MathematicalModel.md'
+          link:' /guide/project/23MathematicalModel.md'
         },
       ],
-      "/guide/paper":[
+      "/guide/work":[
         { 
-          text: '基于XXX的XXX', 
-          link:'/guide/paper/firstPaper.md'
+          text: '东莞叮咚网络技术有限公司', 
+          link: '/guide/work/dingdong.md'
         },
+        {
+          text: '小黑盒',
+          link: '/guide/work/heybox.md'
+        }
       ],
       "/guide/backend/":[
         {text:'k邻近算',link:'/guide/backend/knn.md'},
