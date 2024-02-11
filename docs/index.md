@@ -30,7 +30,7 @@ features:
     link: /guide/project/baner.md
   - icon: 📑
     title: 工作经历
-    link: /guide/work/firstPaper.md
+    link: /guide/work/dingdong.md
     details: Work Experience
 ---
 
