@@ -89,7 +89,7 @@ function getChinsesThemeConfig() {
               link:'/guide/diary/life/2024.2.10.md'
             },
             {
-              text:'2024.2.4 惠州游',
+              text:'2024.2.14 惠州游',
               link:'/guide/diary/life/2024.2.14.md'
             }
           ]
