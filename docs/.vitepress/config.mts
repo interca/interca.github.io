@@ -90,7 +90,7 @@ function getChinsesThemeConfig() {
             },
             {
               text:'2024.2.4 惠州游',
-              link:'/guide/daily/life/2024.2.14.md'
+              link:'/guide/diary/life/2024.2.14.md'
             }
           ]
       
