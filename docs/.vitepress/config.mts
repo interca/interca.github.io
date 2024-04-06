@@ -79,16 +79,44 @@ function getChinsesThemeConfig() {
           collapsed:true,
           items:[
             {
+              text:'2023.11.14 小黑盒笔试',
+              link:'/guide/diary/life/2023.11.14.md'
+            },
+            {
               text:'2023.11.15 杭州雪晴oc',
               link:'/guide/diary/life/2023.11.15.md'
             },
             {
-              text:'2023.11.18 得物侧开oc',
-              link:'/guide/diary/life/2023.11.18.md'
+              text:'2023.11.23 小黑盒一面',
+              link:'/guide/diary/life/2023.11.23.md'
             },
             {
-              text:'2023.11.22 快手安卓一面',
-              link:'/guide/diary/life/2023.11.22.md'
+              text:'2023.11.26 得物go后端',
+              link:'/guide/diary/life/2023.11.26-2.md'
+            },
+            {
+              text:'2023.11.27 小黑盒二面',
+              link:'/guide/diary/life/2023.11.27.md'
+            },
+            {
+              text:'2023.11.26 得物测开offer',
+              link:'/guide/diary/life/2023.11.26.md'
+            },
+            {
+              text:'2023.11.26-2 得物后端一面',
+              link:'/guide/diary/life/2023.11.26.md'
+            },
+            {
+              text:'2023.11.28 快手安卓一面',
+              link:'/guide/diary/life/2023.11.28.md'
+            },
+            {
+              text:'2023.11.29 小黑盒hr面',
+              link:'/guide/diary/life/2023.11.29.md'
+            },
+            {
+              text:'2023.12.1 小黑盒offer',
+              link:'/guide/diary/life/2023.12.1.md'
             },
             {
               text:'2023.12.13 打卡人民大会堂',
