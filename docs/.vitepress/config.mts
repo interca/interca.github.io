@@ -60,7 +60,8 @@ function getChinsesThemeConfig() {
         text: '日常', 
         items:[
           {text:'旅行',link:'/guide/diary/travel/philosophyOfComputer.md'},
-          {text:'生活',link:'/guide/diary/life/2024.2.8.md'}
+          {text:'生活',link:'/guide/diary/life/2024.2.8.md'},
+          {text:'思考',link:'/guide/diary/think/philosophyOfComputer.md'}
         ]
       },
     ],
@@ -81,6 +82,22 @@ function getChinsesThemeConfig() {
           collapsed:true,
           items:[
             {
+              text:'2023.11.15 杭州雪晴oc',
+              link:'/guide/diary/life/2023.11.15.md'
+            },
+            {
+              text:'2023.11.18 得物一面',
+              link:'/guide/diary/life/2023.11.18.md'
+            },
+            {
+              text:'2023.11.22 快手安卓一面',
+              link:'/guide/diary/life/2023.11.22.md'
+            },
+            {
+              text:'2023.12.13 打卡人民大会堂',
+              link:'/guide/diary/life/2023.12.13.md'
+            },
+            {
               text:'2024.2.8 线上kafka事故',
               link:'/guide/diary/life/2024.2.8.md'
             },
@@ -89,8 +106,12 @@ function getChinsesThemeConfig() {
               link:'/guide/diary/life/2024.2.10.md'
             },
             {
-              text:'2024.2.14 惠州游',
-              link:'/guide/diary/life/2024.2.14.md'
+              text:'2024.3.4 小黑盒离职',
+              link:'/guide/diary/life/2024.3.4.md'
+            },
+            {
+              text:'2024.3.7 入职快手',
+              link:'/guide/diary/life/2024.3.7.md'
             }
           ]
       
