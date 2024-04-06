@@ -72,10 +72,7 @@ function getChinsesThemeConfig() {
           collapsed:true,
           items:[
             {text:'计算机的哲学',link:'/guide/diary/think/philosophyOfComputer.md'},
-            {text:'后端的艺术',link:'/guide/diary/daily.md'},
-            {text:'如何高效地学习？',link:'/guide/diary/daily.md'}
           ]
-      
         },
         { 
           text: '生活', 
@@ -86,7 +83,7 @@ function getChinsesThemeConfig() {
               link:'/guide/diary/life/2023.11.15.md'
             },
             {
-              text:'2023.11.18 得物一面',
+              text:'2023.11.18 得物侧开oc',
               link:'/guide/diary/life/2023.11.18.md'
             },
             {
@@ -110,9 +107,16 @@ function getChinsesThemeConfig() {
               link:'/guide/diary/life/2024.3.4.md'
             },
             {
-              text:'2024.3.7 入职快手',
+              text:'2024.3.7 快手报道',
               link:'/guide/diary/life/2024.3.7.md'
             }
+          ]
+        },
+        { 
+          text: '思考', 
+          collapsed:true,
+          items:[
+            {text:'计算机的哲学',link:'/guide/diary/think/philosophyOfComputer.md'},
           ]
       
         },
