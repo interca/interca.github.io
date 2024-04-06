@@ -59,7 +59,7 @@ function getChinsesThemeConfig() {
       { 
         text: '日常', 
         items:[
-          {text:'思考',link:'/guide/diary/think/philosophyOfComputer.md'},
+          {text:'旅行',link:'/guide/diary/travel/philosophyOfComputer.md'},
           {text:'生活',link:'/guide/diary/life/2024.2.8.md'}
         ]
       },
@@ -67,7 +67,7 @@ function getChinsesThemeConfig() {
     sidebar: {
       "/guide/diary":[
         { 
-          text: '思考', 
+          text: '旅行', 
           collapsed:true,
           items:[
             {text:'计算机的哲学',link:'/guide/diary/think/philosophyOfComputer.md'},
