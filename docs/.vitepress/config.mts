@@ -95,7 +95,7 @@ function getChinsesThemeConfig() {
             },
             {
               text:'2023.11.23 小黑盒一面',
-              link:'/guide/diary/wrok/2023.11.23.md'
+              link:'/guide/diary/work/2023.11.23.md'
             },
             {
               text:'2023.11.26 得物go后端',
