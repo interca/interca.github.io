@@ -136,6 +136,10 @@ function getChinsesThemeConfig() {
             {
               text:'2024.3.7 快手报道',
               link:'/guide/diary/work/2024.3.7.md'
+            },
+            {
+              text:'2024.7.20 快手实习',
+              link:'/guide/diary/work/2024.7.20.md'
             }
           ]
         },
