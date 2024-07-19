@@ -59,8 +59,8 @@ function getChinsesThemeConfig() {
       { 
         text: '日常', 
         items:[
-          {text:'旅行',link:'/guide/diary/travel/philosophyOfComputer.md'},
-          {text:'生活',link:'/guide/diary/life/2024.2.8.md'},
+          {text:'生活',link:'/guide/diary/life/2023.12.13.md'},
+          {text:'工作',link:'/guide/diary/work/2024.2.8.md'},
           {text:'思考',link:'/guide/diary/think/philosophyOfComputer.md'}
         ]
       },
