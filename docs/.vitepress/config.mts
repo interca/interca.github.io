@@ -111,7 +111,7 @@ function getChinsesThemeConfig() {
             },
             {
               text:'2023.11.26-2 得物后端一面',
-              link:'/guide/diary/wrok/2023.11.26.md'
+              link:'/guide/diary/work/2023.11.26.md'
             },
             {
               text:'2023.11.28 快手安卓一面',
@@ -123,7 +123,7 @@ function getChinsesThemeConfig() {
             },
             {
               text:'2023.12.1 小黑盒offer',
-              link:'/guide/diary/wrok/2023.12.1.md'
+              link:'/guide/diary/work/2023.12.1.md'
             },
             {
               text:'2024.2.8 线上kafka事故',
