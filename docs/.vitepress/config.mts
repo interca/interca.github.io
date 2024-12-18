@@ -80,19 +80,19 @@ function getChinsesThemeConfig() {
             },
             {
               text:'2024.2.8 线上kafka事故',
-              link:'/guide/diary/work/2024.2.8.md'
+              link:'/guide/diary/life/2024.2.8.md'
             },
             {
               text:'2024.3.4 小黑盒离职',
-              link:'/guide/diary/work/2024.3.4.md'
+              link:'/guide/diary/life/2024.3.4.md'
             },
             {
               text:'2024.3.7 快手报道',
-              link:'/guide/diary/work/2024.3.7.md'
+              link:'/guide/diary/life/2024.3.7.md'
             },
             {
               text:'2024.7.20 快手实习',
-              link:'/guide/diary/work/2024.7.20.md'
+              link:'/guide/diary/life/2024.7.20.md'
             }
           ]
         },
