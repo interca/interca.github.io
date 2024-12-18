@@ -60,7 +60,6 @@ function getChinsesThemeConfig() {
         text: '日常', 
         items:[
           {text:'生活',link:'/guide/diary/life/2023.12.13.md'},
-          {text:'工作',link:'/guide/diary/work/2024.2.8.md'},
           {text:'思考',link:'/guide/diary/think/philosophyOfComputer.md'}
         ]
       },
@@ -78,52 +77,6 @@ function getChinsesThemeConfig() {
             {
               text:'2024.2.10 网吧一日游',
               link:'/guide/diary/life/2024.2.10.md'
-            },
-          ]
-        },
-        { 
-          text: '工作', 
-          collapsed:true,
-          items:[
-            {
-              text:'2023.11.14 小黑盒笔试',
-              link:'/guide/diary/work/2023.11.14.md'
-            },
-            {
-              text:'2023.11.15 杭州雪晴oc',
-              link:'/guide/diary/work/2023.11.15.md'
-            },
-            {
-              text:'2023.11.23 小黑盒一面',
-              link:'/guide/diary/work/2023.11.23.md'
-            },
-            {
-              text:'2023.11.26 得物go后端',
-              link:'/guide/diary/work/2023.11.26-2.md'
-            },
-            {
-              text:'2023.11.27 小黑盒二面',
-              link:'/guide/diary/work/2023.11.27.md'
-            },
-            {
-              text:'2023.11.26 得物测开offer',
-              link:'/guide/diary/work/2023.11.26.md'
-            },
-            {
-              text:'2023.11.26-2 得物后端一面',
-              link:'/guide/diary/work/2023.11.26.md'
-            },
-            {
-              text:'2023.11.28 快手安卓一面',
-              link:'/guide/diary/work/2023.11.28.md'
-            },
-            {
-              text:'2023.11.29 小黑盒hr面',
-              link:'/guide/diary/work/2023.11.29.md'
-            },
-            {
-              text:'2023.12.1 小黑盒offer',
-              link:'/guide/diary/work/2023.12.1.md'
             },
             {
               text:'2024.2.8 线上kafka事故',
@@ -169,11 +122,15 @@ function getChinsesThemeConfig() {
       "/guide/work":[
         { 
           text: '东莞叮咚网络技术有限公司', 
-          link: '/guide/work/dingdong.md'
+          link: '/guide/workExperience/dingdong.md'
         },
         {
           text: '小黑盒',
-          link: '/guide/work/heybox.md'
+          link: '/guide/workExperience/heybox.md'
+        },
+        {
+          text: '快手',
+          link: '/guide/workExperience/ks.md'
         }
       ],
       "/guide/backend/":[
@@ -199,7 +156,7 @@ function getChinsesThemeConfig() {
           text: '计算机网络',
           collapsed:true,
           items:[
-            {text:'tcp'}
+            {text:'tcp', link: '/guide/cs/net/tcp.md'}
           ]
         }
       ],
