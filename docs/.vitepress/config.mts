@@ -134,8 +134,7 @@ function getChinsesThemeConfig() {
         }
       ],
       "/guide/backend/":[
-        {text:'k邻近算',link:'/guide/backend/knn.md'},
-        {text:'交叉熵',link:'/guide/backend/crossEntropy.md'},
+        {text: 'LoadingCache',link:'/guide/backend/loadingCache.md'},
       ],
       "/guide/cs/":[
         { 
