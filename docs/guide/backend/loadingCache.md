@@ -312,15 +312,15 @@ V get(K key, int hash, CacheLoader<? super K, V> loader) throws ExecutionExcepti
 }
 ```
 
-load方法如下:
-1、获得锁。
-2、获得key对应的valueReference。
-3、判断是否该缓存值正在loading，如果loading，则不再进行load操作（通过设置createNewEntry为false），后续会等待获取新值。
-4、如果不是在loading，判断是否已经有新值了（被其他请求load完了），如果是则返回新值。
-5、准备loading，设置为loadingValueReference。loadingValueReference 会使其他请求在步骤3的时候会发现正在loding。
-6、释放锁。
-7、如果真的需要load，则进行load操作。
-> 加锁是以段为单位的，所以其他线程在访问同个段时会阻塞。
+load方法如下:  
+1、获得锁。  
+2、获得key对应的valueReference。  
+3、判断是否该缓存值正在loading，如果loading，则不再进行load操作（通过设置createNewEntry为false），后续会等待获取新值。  
+4、如果不是在loading，判断是否已经有新值了（被其他请求load完了），如果是则返回新值。  
+5、准备loading，设置为loadingValueReference。loadingValueReference 会使其他请求在步骤3的时候会发现正在loding。  
+6、释放锁。  
+7、如果真的需要load，则进行load操作。  
+> 加锁是以段为单位的，所以其他线程在访问同个段时会阻塞。  
 ``` java
 
 V lockedGetOrLoad(K key, int hash, CacheLoader<? super K, V> loader) throws ExecutionException {
@@ -700,7 +700,7 @@ ReferenceEntry<K, V> getNextEvictable() {
 
 ### 定时回收
 expireAfterAccess(long, TimeUnit)：缓存项在给定时间内没有被读/写访问，则回收。请注意这种缓存的回收顺序和基于大小回收一样。
-expireAfterWrite(long, TimeUnit)：缓存项在给定时间内没有被写访问（创建或覆盖），则回收。如果认为缓存数据总是在固定时候后变得陈旧不可用，这种回收方式是可取的。
+expireAfterWrite(long, TimeUnit)：缓存项在给定时间内没有被写访问（创建或覆盖），则回收。如果认为缓存数据总是在固定时候后变得陈旧不可用，这种回收方式是可取的。  
 注：使用CacheBuilder构建的缓存不会"自动"执行清理和回收工作，也不会在某个缓存项过期后马上清理，也没有诸如此类的清理机制。相反，它会在写操作时顺带做少量的维护工作，或者偶尔在读操作时做（如果写操作实在太少）
 get方法、containsKey、getAll都能触发。
 ``` java
@@ -725,9 +725,9 @@ void expireEntries(long now) {
 ```
 
 ### 基于引用的回收
-CacheBuilder.weakKeys()：使用弱引用存储键。当键没有其它（强或软）引用时，缓存项可以被垃圾回收。
-CacheBuilder.weakValues()：使用弱引用存储值。当值没有其它（强或软）引用时，缓存项可以被垃圾回收。
-CacheBuilder.softValues()：使用软引用存储值。软引用只有在响应内存需要时，才按照全局最近最少使用的顺序回收。
+CacheBuilder.weakKeys()：使用弱引用存储键。当键没有其它（强或软）引用时，缓存项可以被垃圾回收。   
+CacheBuilder.weakValues()：使用弱引用存储值。当值没有其它（强或软）引用时，缓存项可以被垃圾回收。   
+CacheBuilder.softValues()：使用软引用存储值。软引用只有在响应内存需要时，才按照全局最近最少使用的顺序回收。  
 写操作会触发。
 ``` java
 @GuardedBy("this")
@@ -742,7 +742,7 @@ void drainReferenceQueues() {
 ```
 
 ### 显示清除
-个别清除：Cache.invalidate(key)
-批量清除：Cache.invalidateAll(keys)
-清除所有缓存项：Cache.invalidateAll()
+个别清除：Cache.invalidate(key)。   
+批量清除：Cache.invalidateAll(keys)。     
+清除所有缓存项：Cache.invalidateAll()。    
 
