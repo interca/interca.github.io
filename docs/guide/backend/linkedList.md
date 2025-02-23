@@ -3,7 +3,7 @@
 ## 结构
 LinkedList由双向链表构成。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/39040375/1740324772561-fab8e0b1-da61-4227-b588-b549828d3aa2.png)
+![alt text](../picture/linkedList.png)
 
 ```java
 public class LinkedList<E>

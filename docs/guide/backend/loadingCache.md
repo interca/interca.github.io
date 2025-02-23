@@ -3,7 +3,7 @@
 ## 简介
 > loadingCache也叫本地缓存，简单来说就是将数据放到在内存里，需要的时候直接从内存取，减少数据库/redis网络io，提高查询效率，之前在快手很多地方都运用这个技术，不过只局限于使用，原理还不懂。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/39040375/1739241015406-11071d29-ea28-45cc-9ce1-6ee2cc392300.png?x-oss-process=image%2Fformat%2Cwebp%2Fresize%2Cw_800%2Climit_0)
+![alt text](../picture/loadingCache.png)
 
 ## 快速使用
 引入依赖，这里我们使用谷歌的guava工具类
