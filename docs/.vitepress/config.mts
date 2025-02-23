@@ -134,7 +134,8 @@ function getChinsesThemeConfig() {
         }
       ],
       "/guide/backend/":[
-        {text: 'LoadingCache',link:'/guide/backend/loadingCache.md'},
+        {text: 'LoadingCache详解',link:'/guide/backend/loadingCache.md'},
+        {text: 'ArrayList详解',link:'/guide/backend/arrayList.md'},
       ],
       "/guide/cs/":[
         { 
