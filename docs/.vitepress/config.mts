@@ -136,6 +136,7 @@ function getChinsesThemeConfig() {
       "/guide/backend/":[
         {text: 'LoadingCache详解',link:'/guide/backend/loadingCache.md'},
         {text: 'ArrayList详解',link:'/guide/backend/arrayList.md'},
+        {text: 'LinkedList详解',link:'/guide/backend/linkedList.md'},
       ],
       "/guide/cs/":[
         { 
